@@ -4,22 +4,43 @@ namespace MiddleLetterCSharp
 {
     public class MiddleLetter
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            MiddleLetter middleLetter = new MiddleLetter();
+
+            while (true)
+            {
+                Console.WriteLine("Enter a string");
+                Console.WriteLine("This program will return the middle of the string");
+                Console.WriteLine("To quit, type 'quit'");
+                var input = Console.ReadLine();
+                if (input == "quit")
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine(middleLetter.Run(input));
+                }
+            }
         }
 
         public string Run(string input)
         {
-            int halfLength = input.Length / 2;
+            if (input == "")
+            {
+                return "";
+            }
+
+            int half = input.Length / 2;
 
             if (input.Length % 2 == 1)
             {
-                return "" + input[halfLength];
+                return "" + input[half];
             }
             else
             {
-                return "" + input[halfLength - 1] + input[halfLength];
+                return "" + input[half - 1] + input[half];
             }
         }
     }

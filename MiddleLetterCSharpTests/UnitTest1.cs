@@ -9,6 +9,7 @@ namespace Tests
         [TestCase("AB", "AB")]
         [TestCase("ABC", "B")]
         [TestCase("ABCD", "BC")]
+        [TestCase("", "")]
 
         public void TestIOFormat(string input, string expect)
         {
