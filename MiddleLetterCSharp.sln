@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleLetterCSharp", "MiddleLetterCSharp\MiddleLetterCSharp.csproj", "{70D01AA7-43AA-4608-A98C-892FA7EBEB0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleLetterCSharpTests", "MiddleLetterCSharpTests\MiddleLetterCSharpTests.csproj", "{60307540-F8ED-4430-9BB5-F591CCD1B1CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70D01AA7-43AA-4608-A98C-892FA7EBEB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D01AA7-43AA-4608-A98C-892FA7EBEB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D01AA7-43AA-4608-A98C-892FA7EBEB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D01AA7-43AA-4608-A98C-892FA7EBEB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60307540-F8ED-4430-9BB5-F591CCD1B1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60307540-F8ED-4430-9BB5-F591CCD1B1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60307540-F8ED-4430-9BB5-F591CCD1B1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60307540-F8ED-4430-9BB5-F591CCD1B1CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
